@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="wanted"
+    errors="0" failures="1" hostname="" id="" package="wanted" skipped="0"
+    tests="2" time="8.769" timestamp="Tue, 11 Sep 2018 20:57:18 GMT">
+  
+    <testcase name="Add warrant for Harry" classname="wanted" time="6.615" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Invalid entries" classname="wanted" time="2.154" assertions="1">  <failure message="Expected element &lt;.results&gt; text to">    at module.exports (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\test-assets\addInvalidWarrant.js:24:17)
+    at Invalid entries.testData.invalidWarrantInfo.forEach.test (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\tests\wanted.js:26:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Invalid entries (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\tests\wanted.js:25:37)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

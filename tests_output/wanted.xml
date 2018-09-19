@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="4">
+
+  <testsuite name="wanted"
+    errors="1" failures="0" hostname="" id="" package="wanted" skipped="3"
+    tests="4" time="0.01400" timestamp="Wed, 19 Sep 2018 04:06:49 GMT">
+  
+    <testcase name="Add warrant for Harry" classname="wanted" time="0.01400" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        Error while running [Wanted / Add warrant for Harry]:
+
+  TypeError: pageObjects.click(...).after is not a function
+    at module.exports (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\test-assets\addValidWarrant.js:3:37)
+    at Add warrant for Harry.testData.warrantInfo.forEach.test (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\tests\wanted.js:21:13)
+    at Array.forEach (&lt;anonymous&gt;)
+    at Object.Add warrant for Harry (C:\Users\PC\Desktop\DevMtn\WantedQueriesAutomation\tests\wanted.js:20:30)
+    at Module.call (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30
+    at Promise.promise.promiseDispatch (C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\PC\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    </system-err>
+  
+
+  
+    
+    <testcase
+      name="Invalid entries" classname="wanted">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify warrant (valid)" classname="wanted">
+      <skipped />
+    </testcase>
+    
+    <testcase
+      name="Modify warrant (invalid)" classname="wanted">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>

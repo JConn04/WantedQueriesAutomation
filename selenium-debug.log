@@ -1,0 +1,16 @@
+23:27:29.179 INFO [GridLauncherV3.launch] - Selenium build info: version: '3.14.0', revision: 'aacccce0'
+23:27:29.184 INFO [GridLauncherV3$1.launch] - Launching a standalone Selenium Server on port 4445
+2018-09-18 23:27:29.410:INFO::main: Logging initialized @646ms to org.seleniumhq.jetty9.util.log.StdErrLog
+23:27:29.790 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4445
+23:27:30.295 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true,
+  "name": "Wanted"
+}
+23:27:30.299 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 45505
+Only local connections are allowed.
+23:27:32.915 INFO [ProtocolHandshake.createSession] - Detected dialect: OSS
+23:27:33.228 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session aad4f1a66e6d81842bf9e3de5a56a838 (org.openqa.selenium.chrome.ChromeDriverService)
+23:27:48.481 INFO [ActiveSessions$1.onStop] - Removing session aad4f1a66e6d81842bf9e3de5a56a838 (org.openqa.selenium.chrome.ChromeDriverService)
